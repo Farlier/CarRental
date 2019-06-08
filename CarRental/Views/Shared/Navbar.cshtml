@@ -1,0 +1,20 @@
+﻿<nav class="navbar navbar-dark navbar-expand-lg bg-dark navbar-fixed-top">
+    <div class="container">
+        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav active mr-auto">
+                <li class="nav-link">@Html.ActionLink("Home", "Index", "Home", new { @class = "btn btn-primary btn-block " })</li>
+                <li class="nav-link">@Html.ActionLink("About", "About", "Home", new { @class = "btn btn-primary btn-block " })</li>
+                <li class="nav-link">@Html.ActionLink("Contact", "Contact", "Home", new { @class = "btn btn-primary btn-block " })</li>
+                <li class="nav-link">@Html.ActionLink("Sign In", "Login", "Account", new { @class = "btn btn-primary btn-block " })</li>
+                <li class="nav-link">@Html.ActionLink("Sign Up", "Register", "Account", new { @class = "btn btn-primary btn-block " })</li>
+            </ul>
+        </div>
+    </div>
+</nav>

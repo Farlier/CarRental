@@ -1,0 +1,57 @@
+﻿/*html {
+    min-height: 100%;
+    height: 1px;
+}
+
+body {
+    min-height: 100%;
+    height: 1px;
+}*/
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+.my-container{
+    min-height:100%;
+    height:auto;
+}
+
+.login-container{
+    height:100%;
+}
+
+.login-form {
+    width: 75%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #ecf0f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+}
+
+.register-form {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
